@@ -1,0 +1,23 @@
+{
+  "name": "css_transitions",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "clean": "rm -rf .cache .parcel-cache",
+    "start": "parcel serve src/index.html",
+    "build": "parcel build src/index.html"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.0.0-beta.1"
+  },
+  "dependencies": {
+    "classnames": "^2.2.6",
+    "framer-motion": "^1.11.1",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  }
+}
